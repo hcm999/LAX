@@ -1,0 +1,16 @@
+{
+  "name": "usdt-staking-dapp",
+  "version": "1.0.0",
+  "description": "USDT Staking DApp",
+  "scripts": {
+    "start": "serve",
+    "build": "echo 'No build required for static site'"
+  },
+  "dependencies": {
+    "ethers": "^6.7.0",
+    "serve": "^14.2.0"
+  },
+  "devDependencies": {
+    "@vercel/static-build": "^1.0.0"
+  }
+}
