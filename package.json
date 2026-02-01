@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "USDT Staking DApp",
   "scripts": {
-    "start": "serve",
-    "build": "echo 'No build required for static site'"
+    "start": "serve dist",
+    "build": "mkdir -p dist && cp index.html dist/ && cp -r assets dist/",
+    "dev": "serve"
   },
   "dependencies": {
     "ethers": "^6.7.0",
